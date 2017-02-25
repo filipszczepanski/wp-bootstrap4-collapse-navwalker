@@ -1,15 +1,11 @@
 # WP Collapse NavWalker Bootsrap 4
-------------
 Custom WordPress Nav Walker for Collapse Navigation of Bootstrap 4
 
 ### Features
 +   multiple depth
 +   parent items no redirection, only open collapse
 
-------------
-
 ## Installation
-------------
 Put wp_bootstrap4_collapse_walker.php file into your WordPress theme folder:
 `./wp-content/your-theme/`
 
@@ -23,7 +19,6 @@ Add the following code to the your WordPress theme functions.php file /wp-conten
 ```
 
 ## Usage
-------------
 Add Custom Walker to the `wp_nav_menu()` array
 ```php
 <?php
@@ -34,7 +29,6 @@ Add Custom Walker to the `wp_nav_menu()` array
 ?>
 ```
 ### Example
-
 1.  Register some menu:
     ```php
     <?php
