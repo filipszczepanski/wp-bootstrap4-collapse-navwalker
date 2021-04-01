@@ -1,4 +1,4 @@
-# WP Collapse NavWalker Bootsrap 4
+# WP Collapse NavWalker Bootstrap 4
 Custom WordPress Nav Walker for Collapse Navigation of Bootstrap 4
 
 ### Features
