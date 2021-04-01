@@ -24,7 +24,7 @@ Add Custom Walker to the `wp_nav_menu()` array
 <?php
   wp_nav_menu([
     ...
-    'walker' => new bs4navwalker()
+    'walker' => new WP_Bootstrap4_Collapse_Walker()
   ]);
 ?>
 ```
@@ -52,8 +52,8 @@ Add Custom Walker to the `wp_nav_menu()` array
     	    'menu_id'         => 'nav-main',
     	    'menu_class'      => 'nav navbar-nav',
     	    'depth'           => 3,
-    	    'fallback_cb'     => 'bs4navwalker::fallback',
-    	    'walker'          => new bs4navwalker()
+    	    'fallback_cb'     => 'WP_Bootstrap4_Collapse_Walker::fallback',
+    	    'walker'          => new WP_Bootstrap4_Collapse_Walker()
         ]);
       ?>
     </nav>
