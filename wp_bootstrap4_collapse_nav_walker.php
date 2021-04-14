@@ -167,7 +167,6 @@ class WP_Bootstrap4_Collapse_Walker extends Walker_Nav_Menu{
           $atts['data-toggle']  = 'collapse';
           $atts['aria-expanded']  = 'false';
           $atts['aria-controls']  = $this->collapse_id($item->ID);
-          $atts['data-parent']  = '#nav-panel-left';
           $atts['role']  = 'tab';
           $atts['href']  = '#'.$this->collapse_id($item->ID);
           $atts['id']  = 'link_'.$this->collapse_id($item->ID);
